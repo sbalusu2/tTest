@@ -7,7 +7,7 @@ from scipy.special import stdtr
 #reads in non-asian heads data 
 ndata = pd.read_excel("SuperLiteData.xlsx", skip_footer = 15)
 print(ndata)
-nNonasian = 9 
+nNonasian = 10
 nndof = nNonasian - 1
 print()
 print()
